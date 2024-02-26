@@ -8,6 +8,6 @@
 # Objetivo
 
 - Criar uma API nos padrões RESTful, que terá um CRUD;
-- Os endpoints criado com os verbos HTTP que correspondem a ação do mesmo;
-- As respostas serão baseadas em JSON, retornand também o status correto;
-- Aplicaremos validações simples, para simular o 'mundo real';
+- Os endpoints criados com os verbos HTTP que correspondem a ação dos s;
+- As respostas baseadas em JSON, retornand também o status correto;
+- Aplicado validações simples, para simular o 'mundo real';
