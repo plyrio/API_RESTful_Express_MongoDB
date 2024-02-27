@@ -11,3 +11,6 @@
 - Os endpoints criados com os verbos HTTP que correspondem a ação dos mesmos;
 - As respostas baseadas em JSON, retornand também o status correto;
 - Aplicado validações simples, para simular o 'mundo real';
+
+
+

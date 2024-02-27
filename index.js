@@ -15,23 +15,23 @@ app.use(
 
 app.use(express.json());
 
-// rota inicial
+// rotas da API
+const personRoutes = require('./routes/personRoutes');
 
+app.use('/person', personRoutes);
+
+// rota inicial / endpoint
 app.get('/', (req, res) => {
-    res.json({ message: 'Oi express'})
+    res.json({ message: 'Oi express' });
 });
 
-
-
 // entregar porta
-
-
 mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.lppm0id.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`)
-.then(()=>{
-    console.log("Conectamos ao MongoDB!");
-    app.listen(porta);
-})
-.catch((err) => console.log(err))
+    .then(() => {
+        console.log("Conectamos ao MongoDB!");
+        app.listen(porta);
+    })
+    .catch((err) => console.log(err))
 
 
 
