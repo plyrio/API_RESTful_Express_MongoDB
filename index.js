@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-const mongoose = require('mongoose')
-const porta = 3000
-require('dotenv').config()
+const mongoose = require('mongoose');
+const porta = 3000;
+require('dotenv').config();
 
-const Person = require('./models/Person')
+const Person = require('./models/Person');
 
 // ler json / middlewares
 app.use(
