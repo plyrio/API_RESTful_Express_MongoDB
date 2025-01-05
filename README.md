@@ -27,13 +27,13 @@ Cria uma nova pessoa.
 }
 ```
 
-###2. **GET /person**
+### 2. **GET /person**
 Retorna todas as pessoas cadastradas.
 
-###3. **GET /person/:id**
+### 3. **GET /person/:id**
 Retorna uma pessoa específica pelo ID.
 
-###4. **PATCH /person/:id**
+### 4. **PATCH /person/:id**
 Atualiza as informações de uma pessoa específica pelo ID.
 
 **Body:**
@@ -45,53 +45,52 @@ Atualiza as informações de uma pessoa específica pelo ID.
 }
 ```
 
-###5. **DELETE /person/:id**
+### 5. **DELETE /person/:id**
 Deleta uma pessoa pelo ID.
 
-##Instalação
+## Instalação
 
-###1. Clone o repositório:
+### 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/apirestexpressmongodb.git
 ```
 
-2. Navegue até a pasta do projeto:
-
+### 2. Navegue até a pasta do projeto:
+```bash
 cd apirestexpressmongodb
+```
 
-
-3. Instale as dependências:
-
+### 3. Instale as dependências:
+```bash
 npm install
+```
 
-
-4. Crie um arquivo .env na raiz do projeto e adicione suas variáveis de ambiente:
-
+### 4. Crie um arquivo .env na raiz do projeto e adicione suas variáveis de ambiente:
+```.env
 DB_USER=seu_usuario
 DB_PASSWORD=sua_senha
+```
 
-
-5. Para iniciar o servidor em modo de desenvolvimento, utilize o comando:
-
+### 5. Para iniciar o servidor em modo de desenvolvimento, utilize o comando:
+```bash
 npm start
-
+```
 Isso iniciará o servidor na porta 3000.
 
 
 
-Testes
+## Testes
 
 No momento, não há testes automatizados configurados. Para executar um comando de teste padrão, use:
-
+```baah
 npm test
+```
 
-Licença
+## Licença
 
 Este projeto está licenciado sob a Licença ISC - veja o arquivo LICENSE para mais detalhes.
 
-Autor
+## Autor
 
-Pedro Lyrio - Plyrio Dev
-
-Agora está tudo corretamente dentro da estrutura Markdown, incluindo a formatação de código e os blocos de texto. Se precisar de mais ajustes, é só avisar!
+Pedro Lyrio - **Plyrio Dev**
 
